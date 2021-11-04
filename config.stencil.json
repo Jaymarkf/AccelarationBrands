@@ -1,0 +1,16 @@
+{
+  "customLayouts": {
+    "brand": {},
+    "category": {
+      "category-cbd-tinctures.html": "",
+      "subcategory-page.html": "/cbd"
+    },
+    "page": {
+      "about-us-page.html": "/about-us/"
+    },
+    "product": {}
+  },
+  "apiHost": "https://api.bigcommerce.com",
+  "normalStoreUrl": "https://www.accelerationbrands.us/",
+  "port": "3000"
+}

@@ -1,0 +1,108 @@
+{{#partial "page"}}
+<div class="container">
+    <!-- {{> components/common/breadcrumbs breadcrumbs=breadcrumbs style='opacity: 0'}} -->
+    <main class="page">
+        {{#unless theme_settings.hide_page_heading }}
+            <h1 class="page-heading" style="display: none;">{{ page.title }}</h1>
+        {{/unless}}
+    
+        {{#if page.sub_pages}}
+        <nav class="navBar navBar--sub">
+            <ul class="navBar-section account-navigation">
+            {{#each page.sub_pages}}
+                <li class="navBar-item"><a class="navBar-action" href="{{url}}">{{title}}</a></li>
+            {{/each}}
+            </ul>
+        </nav>
+        {{/if}}
+        
+        {{{region name="page_builder_content"}}}
+    
+        <div class="page-content">
+            <!--About Us Banner  -->
+            <div class="about-us-bg">
+                <div class="about-us-section">
+                    <div class="col-md-6 col-sm-6 col-xs-6 text-content">
+                        <div>
+                            <h2 class="text-light">About Acceleration<br> Brands</h2>
+                            <p class="text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 content-image">
+                        <img src="{{cdn '../img/inners/Multi-Product_images.png'}}" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Your CBD Products  -->
+            <div class="row properties-cbd row-reverse w-100 position-relative mx-0 mt-5 pt-4 mb-5 pb-5 dist-con">
+                <div class="col-md-6 col-sm-6 col-xs-2 px-0 dist-part-img">
+                    <img class="lazyload" src="{{cdn '../img/inners/partner-img.png'}}">
+                </div>
+                            
+                <div class="col-md-6 col-sm-6 col-xs-12 position-relative cbd-properties">
+                    <div class="abs-con about-abs-con">                     
+                        <h4 class="h2 text-capitalize font-weight-normal">Your CBD Products<br>Distribution Partner</h4>
+                        <div>
+                            <h4><img class="lazyload mr-1" src="{{cdn '../img/inners/arrow-right.png'}}">&nbsp;Our Business</h4>
+                            <p>Sed id semper risus in hendrerit gravida rutrum quisque. Pellentesque adipiscing commodo elit at imperdiet dui. Amet tellus cras adipiscing enim eu turpis egestas pretium. Id porta nibh venenatis cras sed.</p>
+                            <h4><img class="lazyload mr-1" src="{{cdn '../img/inners/arrow-right.png'}}">&nbsp;Brand Partners</h4>
+                            <p>Sed id semper risus in hendrerit gravida rutrum quisque. Pellentesque adipiscing commodo elit at imperdiet dui. Amet tellus cras adipiscing enim eu turpis egestas pretium. Id porta nibh venenatis cras sed.</p>
+                            <h4><img class="lazyload mr-1" src="{{cdn '../img/inners/arrow-right.png'}}">&nbsp;Our Customers</h4>
+                            <p>Sed id semper risus in hendrerit gravida rutrum quisque. Pellentesque adipiscing commodo elit at imperdiet dui. Amet tellus cras adipiscing enim eu turpis egestas pretium. Id porta nibh venenatis cras sed.</p>
+                            <h4><img class="lazyload mr-1" src="{{cdn '../img/inners/arrow-right.png'}}">&nbsp;Our Mission</h4>
+                            <p>Sed id semper risus in hendrerit gravida rutrum quisque. Pellentesque adipiscing commodo elit at imperdiet dui. Amet tellus cras adipiscing enim eu turpis egestas pretium. Id porta nibh venenatis cras sed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Brands -->
+            <h4 class="h2 mx-auto w-75 text-center h4-brands">Our Brands</h4>
+            <p class="mx-auto w-75 text-center p-brands">Sed id semper risus in hendrerit gravida rutrum quisque. Pellentesque adipiscing commodo elit at imperdiet dui. Amet tellus cras adipiscing enim eu turpis<br> egestas pretium. Id porta nibh venenatis cras sed.</p>
+            <!-- Gallery image grid  -->
+            <div class="image-grid">
+                <img class="image-grid-col-2 image-grid-row-2" src="{{cdn '../img/inners/about-brands/brand-img-1.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/cbd-tinctures.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/lazarus-naturals.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/hyperbrain-iq.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/hyperbrain_logo.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/brand-img-2.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/Natural_native_logo.png'}}" class="lazyload"> 
+                <img src="{{cdn '../img/inners/about-brands/brand-img-3.png'}}" >
+                <img src="{{cdn '../img/inners/about-brands/mystic_labs_logo-01.png'}}" class="lazyload">
+                <img class="image-grid-col-2 image-grid-row-2" src="{{cdn '/img/inners/about-brands/brand-img.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/brand-img-4.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/Joy.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/cbd-capsules.png'}}" class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/natures-script-white-glow-logo.png'}}"class="lazyload">
+                <img src="{{cdn '../img/inners/about-brands/mystic_labs_logo.png'}}" class="lazyload">
+            </div>
+            <!-- Our Head Office -->
+            <div class="head-office-bg position-relative mt-2">
+                <div class="row pre-footer-section w-100 position-relative mx-0">   
+                    <div class="w-80 mx-auto">               
+                        <div class="col-md-6 col-sm-6 col-xs-12 position-relative con-pre">
+                            <img src="{{cdn '../img/inners/rect-green.png'}}" class="position-relative lazyload mx-auto d-block" >
+                            <div class="abs-con">
+                                    <h2> <img src="{{cdn '../img/inners/location.png'}}" >&nbsp;Our Head Office</h2>
+                                    <h4>904 Mortonsberry Drive<br>
+                                        Naperville, IL 60540</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    
+                            </div>
+                        </div>
+                    </div>  
+                </div>            
+            </div>
+
+        </div>
+    </main>
+</div>
+
+{{/partial}}
+
+{{> layout/base}}
