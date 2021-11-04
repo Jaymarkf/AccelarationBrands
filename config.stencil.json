@@ -6,7 +6,8 @@
       "subcategory-page.html": "/cbd"
     },
     "page": {
-      "about-us-page.html": "/about-us/"
+      "about-us-page.html": "/about-us/",
+      "main-category.html":"/category-main-page/"
     },
     "product": {}
   },
