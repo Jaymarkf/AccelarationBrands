@@ -1503,7 +1503,7 @@ body{
 
 // Skin Care Prod
 .cbd-skin-care-bg{
-    background: url("../img/categpage/Topicals.png");
+    background: url("https://cdn11.bigcommerce.com/s-2r0p327be1/product_images/uploaded_images/cbd-prod-bg.png?t=1635997776&_gl=1*173hse*_ga*MTgzNTE5MzI1My4xNjE3Nzc3MjAy*_ga_WS2VZYPC6G*MTYzNTk5NDY1My4zNDEuMS4xNjM1OTk0OTQ1LjYw");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 18rem 0rem;
@@ -1804,6 +1804,7 @@ body{
 
   }
   .active{
+    padding-bottom: 0.5rem;
     .icon.accordion-indicator {
         transform: rotateZ(45deg);
     }
@@ -1811,6 +1812,7 @@ body{
 .border-bottom.border-secondary.mb-5.active {
     border-bottom: 0 !important;
     margin-bottom: 0 !important;
+    padding-bottom: 0.5rem;
 }
   .panel {
     padding: 0 18px;
@@ -1833,6 +1835,16 @@ body{
     place-content: center;
     justify-items: center;
     align-items: center;
+    div p{
+        color: #1a2b58 !important;
+        font-family: "Almarai";
+        font-weight: 600 !important;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin: 0.5rem 0 0;
+
+    }
 }
 .table-div-con{
     width: 80% !important;
@@ -1858,6 +1870,9 @@ body{
     @media screen and (max-width: 480px) {
         padding: 1.5rem 0;
     }
+    p{
+        font-weight: 600 !important;
+    }
     
 }
 .categ-table tbody tr td{
@@ -1875,6 +1890,17 @@ body{
     img{
         display: block;
         margin: 0 auto;
+    }
+}
+
+.breakdown{
+    background: #f6f6f6;
+    padding: 6rem 0;
+
+    .table-div-con{
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #aaaaaa;
+        }
     }
 }
 
@@ -2148,7 +2174,7 @@ body{
                 padding: 0 2rem;
             }
             h2{
-                color: #ffffff;
+                color:#1a2b58 !important;
                 font-family: 'Almarai';
                 margin-bottom: 1rem;
                 font-weight: 400;
@@ -2623,4 +2649,8 @@ details[open] > .custom-summary .icon{
 
 .abs-con.w-70.rr {
     left: 54%;
+}
+
+.mb-10{
+    margin-bottom: 8rem !important;
 }
