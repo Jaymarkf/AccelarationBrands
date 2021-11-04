@@ -3,7 +3,10 @@
     "brand": {},
     "category": {
       "category-cbd-tinctures.html": "",
-      "subcategory-page.html": "/cbd"
+      "subcategory-page.html": "/cbd",
+      "bathbombs-sub.html" : "/cbd-bath/",
+      "capsules-subcateg.html" : "/cbd-capsules",
+      "sleep-aids-sub.html" : "/cbd-sleep-aids"
     },
     "page": {
       "about-us-page.html": "/about-us/"
