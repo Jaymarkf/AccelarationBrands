@@ -20,12 +20,18 @@
                   <div class="product-columns d-flex align-items-start justify-content-start">
                            <div class="tinctures-grid pt-5 homepage-featured categ addcart-show">
                                     <main class="page-content" id="product-listing-container">
-                                             {{#if category.products}}
-                                             {{> aoc-custom/components/custom/product-listing}}
-                                             {{else}}
-                                             <p>{{lang 'categories.no_products'}}</p>
-                                             {{/if}}
-                                             {{{region name="category_below_content"}}}
+
+
+                                        {{#each category.products}}
+                                                            {{#if name "===" 'CBD Cream Dummy'}}
+                                                               {{> aoc-custom/components/custom/product-listing}}
+                                                            {{else}}
+                                                                
+                                                            {{/if}}
+
+                                        {{/each}}
+
+
                                     </main>
                            </div>
                   </div>
