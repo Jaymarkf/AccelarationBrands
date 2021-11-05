@@ -1919,25 +1919,6 @@ body{
         padding: 0;
     }
 }
-
-.row.row-reverse.our-team-con {
-    max-width: 83%;
-    margin: 0 auto;
-    padding: 4rem 0;
-}
-.founder{
-    width: 85%;
-    font-size: 18px !important;
-}
-.rowContent {
-    display: grid;
-    align-content: center;
-}
-section.OurteamSection {
-    background: url("https://cdn11.bigcommerce.com/s-2r0p327be1/product_images/uploaded_images/our-team-banner.png?t=1636072677&_gl=1*j6l8y7*_ga*MTgzNTE5MzI1My4xNjE3Nzc3MjAy*_ga_WS2VZYPC6G*MTYzNjA3MTQ4Mi4zNDUuMS4xNjM2MDcyNjc2LjM1");
-    background-size: 100% 100%;
-    padding: 2rem 0;
-}
 // Banner
 .about-us-bg{
     background: url('../img/inners/bg-banner.png');
@@ -2147,7 +2128,7 @@ section.OurteamSection {
     }
     @media screen and (max-width: 480px) {
         background: #fff;
-        margin-top: 0 !important;
+        margin-top: 1.5rem !important;
     }
     div{
         padding: 2rem 0;
@@ -2156,7 +2137,7 @@ section.OurteamSection {
             padding: 0rem 0;
         }
         @media screen and (max-width: 400px) {
-            padding: 0rem 0 0.5rem;
+            padding: 1rem 0;
         }
         .w-80{
             width: 80%;
