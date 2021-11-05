@@ -1,0 +1,41 @@
+{{#partial "page"}}
+<div class="by-need">
+<!-- BANNER SECTION -->
+<section class="custom-banner-section position-relative">
+<img class="lazyload" src="https://cdn11.bigcommerce.com/s-2r0p327be1/product_images/uploaded_images/pain-relief.png?t=1636014716" alt="banner">
+<div class="position-absolute w-100 h-100 top-0 d-flex justify-content-center align-items-center">
+         <h2 class="h2-banner-title text-light">
+                  By Need Layout
+         </h2>
+</div>
+</section>
+<!-- END OF BANNER SECTION  -->
+
+<!-- PRODUCT SECTION  -->
+<div class="container">
+         <div class="row-product position-relative">
+                  <div class="d-block">
+                           <h2 class="h2-product-title">CBD Creams for Pain Relief</h2>
+                  </div>
+                  <div class="product-columns d-flex align-items-start justify-content-start">
+                           <div class="tinctures-grid pt-5 homepage-featured categ addcart-show">
+                                    <main class="page-content" id="product-listing-container">
+                                             {{#if category.products}}
+                                             {{> aoc-custom/components/custom/product-listing}}
+                                             {{else}}
+                                             <p>{{lang 'categories.no_products'}}</p>
+                                             {{/if}}
+                                             {{{region name="category_below_content"}}}
+                                    </main>
+                           </div>
+                  </div>
+         </div>
+</div>
+
+
+
+<!-- END OF PRODUCT SECTION  -->
+</div>
+{{/partial}}
+
+{{>layout/base}}
