@@ -8,10 +8,17 @@
       "capsules-subcateg.html" : "/cbd-capsules",
       "sleep-aids-sub.html" : "/cbd-sleep-aids",
       "by-need.html" : "/cbd-pain-relief"
+      
     },
     "page": {
       "about-us-page.html": "/about-us/",
-      "main-category.html":"/category-main-page/"
+      "main-category.html":"/category-main-page/",
+      "cbd-stress-relief.html":"/cbd-stress-relief-product/",
+      "sore-muscles.html": "/cbd-sore-muscle/",
+      "everyday-wellness.html": "/cbd-everyday-wellness",
+      "sleep-aid.html": "/cbd-sleep-aid-prod/",
+      "mood.html": "/cbd-mood"
+
 
     },
     "product": {}
