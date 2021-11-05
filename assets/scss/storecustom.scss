@@ -2703,9 +2703,10 @@ details[open] > .custom-summary .icon{
             font-family: 'Almarai';
             font-weight: 500;
             letter-spacing: 2px;
-            text-transform: none;
+            text-transform: unset !important;
             font-size:28px;
     }
+
 
     .sort-and-pagination{
         display:none !important;
@@ -2714,4 +2715,5 @@ details[open] > .custom-summary .icon{
         width:100% !important;
         max-width:100% !important;
     }
+
 }
