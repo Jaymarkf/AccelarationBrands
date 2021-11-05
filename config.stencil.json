@@ -6,11 +6,13 @@
       "subcategory-page.html": "/cbd",
       "bathbombs-sub.html" : "/cbd-bath/",
       "capsules-subcateg.html" : "/cbd-capsules",
-      "sleep-aids-sub.html" : "/cbd-sleep-aids"
+      "sleep-aids-sub.html" : "/cbd-sleep-aids",
+      "by-need.html" : "/cbd-pain-relief"
     },
     "page": {
       "about-us-page.html": "/about-us/",
       "main-category.html":"/category-main-page/"
+
     },
     "product": {}
   },
